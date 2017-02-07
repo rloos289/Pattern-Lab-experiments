@@ -1,4 +1,11 @@
-<div class="box_thumbnail">
-  {% include "@atoms/_img.twig" with {imageStyleName: 'small'} %}
-  <br> <br>
-</div>
+<article class= {{ style }}>
+	<span class="image">
+		<img src= {{ img }} alt="">
+	</span>
+	<a href="generic.html">
+		<h2>{{ title }}</h2>
+		<div class="content">
+			<p>{{ text }}</p>
+		</div>
+	</a>
+</article>

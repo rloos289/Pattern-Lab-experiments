@@ -4,6 +4,7 @@ imageStyles:
     height: 100
   small:
     width: 400
+    height: 400
   medium:
     width: 800
   large:
