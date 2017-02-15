@@ -1,11 +1,11 @@
-<article class= {{ style }}>
-	<span class="image">
-		<img src= "{{ img }}" alt="">
+<article class="{{ style }} box_thumbnail" >
+	<span class="image box_thumbnail__image--wrapper">
+		<img class="box_thumbnail__image" src= "{{ img }}" alt="">
 	</span>
-	<a href="generic.html">
-		<h2>{{ title }}</h2>
-		<div class="content">
-			<p>{{ text }}</p>
+	<a class="box_thumbnail__link" href="generic.html">
+		<h2 class="box_thumbnail__heading">{{ title }}</h2>
+		<div class="content box_thumbnail__content--wrapper">
+			<p class="box_thumbnail__content">{{ text }}</p>
 		</div>
 	</a>
 </article>

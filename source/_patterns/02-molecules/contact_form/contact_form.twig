@@ -1,0 +1,9 @@
+<section>
+  {% include "@atoms/heading.twig" with {heading: "GET IN TOUCH"} %}
+  <form method="post" action="#">
+    {% include "@atoms/form.twig" with {field_class: "field half first" ,field_name: "name", field_placeholder: "Name"}%}
+    {% include "@atoms/form.twig" with {field_class: "field half" ,field_name: "email", field_placeholder: "Email"}%}
+    {% include "@atoms/form.twig" with {field_class: "field" ,field_name: "message", field_placeholder: "Message"}%}
+    {% include "@atoms/send_button.twig" with {button_label: "SEND"}%}
+  </form>
+</section>

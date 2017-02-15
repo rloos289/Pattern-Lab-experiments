@@ -1,0 +1,13 @@
+<section>
+  {% include "@atoms/heading.twig" with {heading: "Follow"}%}
+    <ul class="icons">
+      {% for icon in icons %}
+        <li>
+          {% include "@atoms/follow_icons.twig" with {
+            follow_icon_class: icon.class,
+            follow_icon_label: icon.label
+          }%}
+        </li>
+        {% endfor %}
+    </ul>
+</section>

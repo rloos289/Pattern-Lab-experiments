@@ -1,0 +1,36 @@
+{
+  "icons": [
+    {
+    "class": "icon style2 fa-twitter",
+    "label": "Twitter"
+    },
+    {
+    "class": "icon style2 fa-facebook",
+    "label": "Facebook"
+    },
+    {
+    "class": "icon style2 fa-instagram",
+    "label": "Instagram"
+    },
+    {
+    "class": "icon style2 fa-dribbble",
+    "label": "Dribble"
+    },
+    {
+    "class": "icon style2 fa-github",
+    "label": "Github"
+    },
+    {
+    "class": "icon style2 fa-500px",
+    "label": "500px"
+    },
+    {
+    "class": "icon style2 fa-phone",
+    "label": "Phone"
+    },
+    {
+    "class": "icon style2 fa-envelope-o",
+    "label": "Email"
+    }
+  ]
+}

@@ -64,6 +64,10 @@ plugins:
           - ../source/_patterns/01-atoms/01-typography/lists
           - ../source/_patterns/01-atoms/01-typography/text
           - ../source/_patterns/01-atoms/buttons
+          - ../source/_patterns/01-atoms/buttons/follow_icons
+          - ../source/_patterns/01-atoms/buttons/send_button
+          - ../source/_patterns/01-atoms/form
+          - ../source/_patterns/01-atoms/heading
           - ../source/_patterns/01-atoms/images
       molecules:
         paths:
@@ -71,9 +75,13 @@ plugins:
           - ../source/_patterns/02-molecules/box_thumbnail
           - ../source/_patterns/02-molecules/branding
           - ../source/_patterns/02-molecules/caption-block
+          - ../source/_patterns/02-molecules/contact_form
+          - ../source/_patterns/02-molecules/copyright
+          - ../source/_patterns/02-molecules/follow_bar
       organisms:
         paths:
           - ../source/_patterns/03-organisms
+          - ../source/_patterns/03-organisms/footer
           - ../source/_patterns/03-organisms/grids/caption-grid-block
           - ../source/_patterns/03-organisms/grids/thumbnail_grid
           - ../source/_patterns/03-organisms/site/site-footer
