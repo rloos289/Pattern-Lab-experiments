@@ -1,0 +1,24 @@
+{
+  "links": [
+    {
+      "ref": "index.html",
+      "label": "Home"
+    },
+    {
+      "ref": "generic.html",
+      "label": "Ipsum veroeros"
+    },
+    {
+      "ref": "generic.html",
+      "label": "Tempus etiam"
+    },
+    {
+      "ref": "generic.html",
+      "label": "Consequat dolor"
+    },
+    {
+      "ref": "elements.html",
+      "label": "Elements"
+    }
+  ]
+}

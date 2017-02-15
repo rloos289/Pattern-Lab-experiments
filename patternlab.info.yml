@@ -33,6 +33,8 @@ component-libraries:
       - source/_patterns/01-atoms/form
       - source/_patterns/01-atoms/heading
       - source/_patterns/01-atoms/images
+      - source/_patterns/01-atoms/logo
+      - source/_patterns/01-atoms/nav_link
   molecules:
     paths:
       - source/_patterns/02-molecules
@@ -42,12 +44,14 @@ component-libraries:
       - source/_patterns/02-molecules/contact_form
       - source/_patterns/02-molecules/copyright
       - source/_patterns/02-molecules/follow_bar
+      - source/_patterns/02-molecules/nav_menu
   organisms:
     paths:
       - source/_patterns/03-organisms
       - source/_patterns/03-organisms/footer
       - source/_patterns/03-organisms/grids/caption-grid-block
       - source/_patterns/03-organisms/grids/thumbnail_grid
+      - source/_patterns/03-organisms/header
       - source/_patterns/03-organisms/site/site-footer
       - source/_patterns/03-organisms/site/site-header
   templates:

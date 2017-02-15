@@ -1,0 +1,16 @@
+<nav id="menu">
+  <div class="inner">
+		<h2>Menu</h2>
+		<ul>
+      {% for link in links %}
+    		<li>
+          {% include "@atoms/nav_link.twig" with {
+            link_ref: link.ref,
+            link_name: link.label
+          }%}
+    		</li>
+      {% endfor %}
+		</ul>
+	</div>
+  <a class="close" href="#menu">Close</a>
+</nav>
